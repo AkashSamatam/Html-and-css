@@ -1,0 +1,156 @@
+body{
+
+    background:rgba(0,0,0, 0.62) url(images/banner.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+.logo{
+    width: 100px;
+    object-fit: contain;
+    margin-top: -1rem;
+    margin-left: -1rem;
+}
+.container{
+    position: absolute;
+    width: 360px;
+    height: 400px;
+    background-color: rgba(0,0,0,.75);
+    margin-left: 38rem;
+    margin-top: 10rem;
+}
+.container h2{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+/* .container .form{
+    width: 660px;
+} */
+input{
+
+    width: 300px;
+    height: 50px;
+    margin-bottom: 1rem;
+    margin-left: 2.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #333;
+
+}
+
+input[type=submit]{
+
+    background-color: red;
+    width: 300px;
+    font-size: 1.3rem;
+    color: white;
+    cursor: pointer;
+}
+input::placeholder{
+    color: rgb(125,119,119);
+    font-size: 1.1rem;
+    padding-left:1rem;
+}
+input[type=checkbox]{
+    width: 15px;
+    height: 15px;
+    margin-left: 2rem;
+}
+label{
+  color: rgb(125,119,119); 
+
+}
+.form a{
+    color: rgb(125,119,119);
+    text-decoration: none;
+    margin-left: 6rem;
+
+}
+.content{
+    display: flex;
+}
+.content h3{
+    color: rgb(125,119,119);
+    margin-left: 2rem;
+    font-size: 1rem;
+    margin-top: -0.6rem;
+
+}
+.form .signup{
+    color: #fff;
+    margin-left: .4rem;
+    margin-top: -0.65rem;
+}
+span{
+    color: red;
+}
+.footer{
+    margin-top: 38rem;
+    padding: 70px 15% 10px;
+    background-color:rgba(0,0,0,.75);
+}
+.footer h2{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    color: #777;
+}
+.footer .column{
+    flex: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+
+}
+.footer .column a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.footer .row{
+    display: flex;
+    align-items: flex-start;
+    padding: 10px 0%;
+}
+/* @media (max-width:700px) {
+    .container{
+        margin-left: 15px;
+        margin-top: 60px;
+    }
+    body{
+        width: 80px;
+
+    }
+    input{
+        margin-left: 30px;
+    }
+    .content{
+        margin-top: 1rem;
+    }
+} */
+@media only screen and (max-width: 768px) {
+    .container{
+        margin-left: 15px;
+        margin-top: 60px;
+    }
+    body{
+        width: 80px;
+
+    }
+    input{
+        margin-left: 30px;
+    }
+    .content{
+        margin-top: 1rem;
+    }
+
+
+
+}
